@@ -1,0 +1,40 @@
+# VSCode IDE缓存
+.vscode/*.json
+.vscode/!settings.json
+.vscode/ipch/
+.vscode/.cache
+*.suo
+*.user
+*.user.*
+
+# Keil MDK编译输出
+*.uvgui*
+*.bak
+*.dep
+*.crf
+*.o
+*.d
+*.axf
+*.elf
+*.hex
+*.bin
+*.lst
+*.map
+*.htm
+Debug/
+Release/
+build/
+output/
+
+# STM32CubeMX
+*.ioc~
+.MXProject
+generated/
+
+# 系统垃圾文件
+.DS_Store
+Thumbs.db
+
+# 临时日志
+*.log
+*.tmp
